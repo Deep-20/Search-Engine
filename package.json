@@ -1,0 +1,20 @@
+{
+	"name": "search-engine",
+	"version": "1.0.0",
+	"description": "Search Engine by text CS-600",
+	"main": "index.js",
+	"scripts": {
+		"start": "node app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "Deep Patel - 20012444",
+	"license": "MIT",
+	"dependencies": {
+		"cheerio": "^1.0.0-rc.12",
+		"html-to-text": "^9.0.2",
+		"immutable": "^4.3.0",
+		"stopword": "^2.0.5",
+		"text-cleaner": "^1.2.1"
+	}
+}
