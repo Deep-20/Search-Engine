@@ -2,7 +2,7 @@
 
 ## INTRODUCTION
 
-The project aimed to build a search engine for a small website, as per the instructions in section 23.6 about creating a search engine. The goal was to develop a program that takes a collection of files, reads their contents, and creates an index of words excluding common stop words. The program should then rank these words based on how often they appear in each file. Users can use the search engine to look for specific terms and get a list of web pages ranked by relevance.
+The project aimed to build a search engine for a small website. The goal was to develop a program that takes a collection of files, reads their contents, and creates an index of words excluding common stop words. The program should then rank these words based on how often they appear in each file. Users can use the search engine to look for specific terms and get a list of web pages ranked by relevance.
 
 ## Search Engine
 
@@ -87,12 +87,12 @@ To end the search and exit the application, you can type :q.
 ## Sample Output
 
 ```
-dexter@Deeps-MacBook-Pro Search_Engine-master % npm start
+> npm start
 
 > search-engine@1.0.0 start
 > node app.js
 
-Reading files from: /Users/dexter/Documents/Deep/Stevens/Sem 3/CS-600 (Adv. Algo)/Assignments_Self/Project/Search_Engine-master/data
+Reading files from: ./data
 ✔ Dukono.html
 ✔ MountAgung.html
 ✔ Krakatoa.html
